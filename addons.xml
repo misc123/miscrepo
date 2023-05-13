@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<addons>
+
+<addon id="plugin.video.politics" name="時政熱點" version="1.0.0" provider-name="J1 modded by misc123">
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en"></summary>
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+        <news></news>
+        <genre>All</genre>
+        <video_guide></video_guide>
+        <video_preview></video_preview>
+        <assets>
+           <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.news" name="新聞及娛樂" version="1.0.0" provider-name="J1 modded by misc123">
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en"></summary>
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+        <news></news>
+        <genre>All</genre>
+        <video_guide></video_guide>
+        <video_preview></video_preview>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.food" name="飲食頻道" version="1.0.0" provider-name="J1 modded by misc123">
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en"></summary>
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+        <news></news>
+        <genre>All</genre>
+        <video_guide></video_guide>
+        <video_preview></video_preview>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.movie" name="電影頻道" version="1.0.0" provider-name="J1 modded by misc123">
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en"></summary>
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+        <news></news>
+        <genre>All</genre>
+        <video_guide></video_guide>
+        <video_preview></video_preview>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.livetv" name="電視直播" version="1.0.0" provider-name="J1 modded by misc123">
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en"></summary>
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+        <news></news>
+        <genre>All</genre>
+        <video_guide></video_guide>
+        <video_preview></video_preview>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.miscrepo" name="Misc Repo" version="1.0.0" provider-name="misc123">
+    <extension point="xbmc.addon.repository" name="Misc Repo">
+        <dir minversion="20.1.0">
+            <info compressed="false">https://raw.githubusercontent.com/misc123/miscrepo/main/addons.xml</info>    
+            <checksum>https://raw.githubusercontent.com/misc123/miscrepo/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/misc123/miscrepo/main</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Misc Repo</summary>
+        <description>For Kodi 20.1</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+</addons>

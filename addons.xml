@@ -2,26 +2,7 @@
 
 <addons>
 
-<addon id="plugin.video.favourites" name="My Favourites" version="1.0.0" provider-name="J1 modded by misc123">
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en"></summary>
-        <description lang="en"></description>
-        <disclaimer lang="en"></disclaimer>
-        <platform>all</platform>
-        <news></news>
-        <genre>All</genre>
-        <video_guide></video_guide>
-        <video_preview></video_preview>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="plugin.video.politics" name="時政熱點" version="1.0.5" provider-name="J1 modded by misc123">
+<addon id="plugin.video.politics" name="時政熱點" version="1.0.6" provider-name="J1 modded by misc123">
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
@@ -40,7 +21,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.news" name="新聞及娛樂" version="1.0.8" provider-name="J1 modded by misc123">
+<addon id="plugin.video.news" name="新聞及娛樂" version="1.0.9" provider-name="J1 modded by misc123">
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
@@ -59,7 +40,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.food" name="飲食頻道" version="1.0.3" provider-name="J1 modded by misc123">
+<addon id="plugin.video.food" name="飲食頻道" version="1.0.4" provider-name="J1 modded by misc123">
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
@@ -78,7 +59,26 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.movie" name="電影頻道" version="1.0.5" provider-name="J1 modded by misc123">
+<addon id="plugin.video.movie" name="電影頻道" version="1.0.6" provider-name="J1 modded by misc123">
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en"></summary>
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+        <news></news>
+        <genre>All</genre>
+        <video_guide></video_guide>
+        <video_preview></video_preview>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.favourites" name="My Favourites" version="1.0.1" provider-name="J1 modded by misc123">
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>

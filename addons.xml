@@ -2,7 +2,7 @@
 
 <addons>
 
-<addon id="plugin.video.politics" name="時政熱點" version="1.0.9" provider-name="J1 modded by misc123">
+<addon id="plugin.video.politics" name="時政熱點" version="1.0.10" provider-name="J1 modded by misc123">
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
@@ -21,7 +21,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.news" name="新聞及娛樂" version="1.0.12" provider-name="J1 modded by misc123">
+<addon id="plugin.video.news" name="新聞及娛樂" version="1.0.13" provider-name="J1 modded by misc123">
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
@@ -40,7 +40,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.food" name="飲食頻道" version="1.0.6" provider-name="J1 modded by misc123">
+<addon id="plugin.video.food" name="飲食頻道" version="1.0.7" provider-name="J1 modded by misc123">
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
@@ -78,7 +78,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.favourites" name="My Favourites" version="1.0.2" provider-name="J1 modded by misc123">
+<addon id="plugin.video.favourites" name="My Favourites" version="1.0.3" provider-name="J1 modded by misc123">
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>

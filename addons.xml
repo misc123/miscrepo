@@ -2,7 +2,7 @@
 
 <addons>
 
-<addon id="plugin.video.favourites" name="My Favourites" version="1.0.5" provider-name="J1 modded by misc123">
+<addon id="plugin.video.favourites" name="My Favourites" version="1.0.6" provider-name="J1 modded by misc123">
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
@@ -59,7 +59,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="7.4.4.1" provider-name="anxdpanic, bromix, MoojMidge">
+<addon id="plugin.video.youtube" name="YouTube" version="7.4.4.2" provider-name="anxdpanic, bromix, MoojMidge">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.27.1"/>
@@ -86,6 +86,20 @@
         <website>https://www.youtube.com</website>
         <source>https://github.com/anxdpanic/plugin.video.youtube</source>
         <reuselanguageinvoker>true</reuselanguageinvoker>
+
+    <news>## v7.4.4
+### Fixed
+- Fix not including FolderPath in current container details
+- Fix current plugin item window properties sometimes not updating correctly
+- Fix not updating remote history upon consecutive playback events for certain video types
+- Fix using unimplemented change to localisation identifier when showing API config page address
+- Fix play uri parameters/properties not being able to be forced off
+- Limit retrying feeds that cannot be accessed
+
+### Changed
+- Improve responsiveness of service loop upon plugin invocation
+- Log redacted visitorData details
+- More aggressively utilise cached data for My Subscriptions feed failures
 
 ### New
 - Add option to play YouTube error notification video upon playback failure</news></extension>
@@ -217,9 +231,9 @@
     </extension>
 </addon>
 
-<addon id="repository.miscrepo" name="Misc Repo" version="1.0.0" provider-name="misc123">
+<addon id="repository.miscrepo" name="Misc Repo" version="1.0.1" provider-name="misc123">
     <extension point="xbmc.addon.repository" name="Misc Repo">
-        <dir minversion="20.1.0">
+        <dir minversion="21.0.0">
             <info compressed="false">https://raw.githubusercontent.com/misc123/miscrepo/main/addons.xml</info>    
             <checksum>https://raw.githubusercontent.com/misc123/miscrepo/main/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/misc123/miscrepo/main</datadir>
@@ -228,7 +242,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Misc Repo</summary>
-        <description>For Kodi 20.1</description>
+        <description>Compatible with Kodi 21.x (Omega)</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
